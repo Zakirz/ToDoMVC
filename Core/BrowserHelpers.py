@@ -53,6 +53,7 @@ class BrowserHelpers(BaseClass, Locator):
 
     def navigate_to_url(self, url):
         self.driver.get(url)
+        self.wait_time(5)
         self.info_log(f"Navigate To '{url}'")
 
     def wait_time(self, time_in_seconds):

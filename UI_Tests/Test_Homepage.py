@@ -3,12 +3,10 @@ from PageFactory.HomePage.HomePage import HomePage
 
 
 class Test_Homepage(BrowserHelpers):
-    homepage = None
-
-    def tests(self):
-        self.homepage = HomePage()
+    homepage = HomePage()
 
     def test_todomvc(self):
         self.navigate_to_url(self.BASE_URL)
-        self.homepage.add_new_todo("Zakir")
-        assert self.is_todo_added("Zakir")
+        
+        self.homepage.add_todo("Zakir")
+        assert self.homepage.is_todo_added("Zakir")

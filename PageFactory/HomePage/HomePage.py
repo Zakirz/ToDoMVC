@@ -10,6 +10,7 @@ class HomePage(BrowserHelpers):
     def add_todo(self, todo):
         self.enter_text(self.obj.add_new_todo, todo)
         self.enter_text(self.obj.add_new_todo, Keys.ENTER)
+        self.wait_time(2)
 
     def is_todo_added(self, todo):
         todo_locator = self.obj.select_task.replace("TASK_PLACEHOLDER", todo)

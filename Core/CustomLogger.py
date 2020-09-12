@@ -21,8 +21,6 @@ class CustomLogger(RunConfig):
             logging.StreamHandler(sys.stdout),
             logging.FileHandler(filename=f"{self.LOG_FILE}", mode="w")
         ]
-
-        # noinspection PyArgumentList
         logging.basicConfig(
             level=__log_level,
             format=__formatter,
