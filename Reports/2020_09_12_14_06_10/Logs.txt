@@ -1,0 +1,6 @@
+INFO     | 0    | 2020-09-12 02:06:10  PM | Initializing logger...
+INFO     | 1    | 2020-09-12 02:06:28  PM | Navigate To 'http://todomvc.com/examples/angularjs/#/'
+INFO     | 1    | 2020-09-12 02:06:33  PM | Remaining Task Count has text: '1'
+INFO     | 2    | 2020-09-12 02:06:35  PM | Remaining Task Count has text: '0'
+INFO     | 3    | 2020-09-12 02:06:42  PM | Remaining Task Count has text: '2'
+INFO     | 1    | 2020-09-12 02:06:51  PM | Test Completed

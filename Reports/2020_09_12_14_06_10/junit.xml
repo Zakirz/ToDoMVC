@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="ISILLT10372" name="pytest" skipped="0" tests="1" time="40.143" timestamp="2020-09-12T14:06:11.291060"><testcase classname="UI_Tests.Test_Homepage.Test_Homepage" file="UI_Tests\Test_Homepage.py" line="7" name="test_todomvc" time="39.957"></testcase></testsuite></testsuites>
