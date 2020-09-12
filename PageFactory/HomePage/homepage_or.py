@@ -9,6 +9,7 @@ todo_tasks = "Todo Task#xpath=//ul[@class='todo-list']/li//label"
 check_task = "check Todo Task#xpath=//ul[@class='todo-list']/li//label[text()='TASK_PLACEHOLDER']/parent::div/input"
 select_task = "Select Todo Task#xpath=//ul[@class='todo-list']/li//label[text()='TASK_PLACEHOLDER']"
 delete_task = "Delete Todo Task#xpath=//ul[@class='todo-list']/li//label[text()='TASK_PLACEHOLDER']/parent::div/button"
+checked_task = "checked Todo Task#xpath=//ul[@class='todo-list']/li//label[text()='TASK_PLACEHOLDER']/ancestor::li[contains(@class,'completed')]"
 
 # TASK FILTERS
 filter_active = "Active Filter#xpath=//ul[@class='filters']/li/a[text()='Active']"
